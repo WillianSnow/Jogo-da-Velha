@@ -8,22 +8,27 @@
     </head>
     <body>
         <main>
-            <header>
-                <h1>Jogo da Velha</h1>
+            <div id="interface">
+                <header>
+                    <h1>Jogo da Velha</h1>
+                    <div id="moverBotao">
+                        <button class="xo" onclick="x()"> X </button>
+                        <button class="xo" onclick="o()"> O </button>
+                    </div>
+                </header>
                 
-            </header>
-        
-            <div class="pai">
-                <div id="tb1x1"> </div>
-                <div id="tb1x2"> </div>
-                <div id="tb1x3"> </div>
-                <div id="tb2x1"> </div>
-                <div id="tb2x2"> </div>
-                <div id="tb2x3"> </div>
-                <div id="tb3x1"> </div>
-                <div id="tb3x2"> </div>
-                <div id="tb3x3"> </div>
-            </div>      
+                <div class="pai">
+                    <div id="tb1x1" class = "" onclick="click(this)"> </div>
+                    <div id="tb1x2" class = "" onclick="click(this)"> </div>
+                    <div id="tb1x3" class = "" onclick="click(this)"> </div>
+                    <div id="tb2x1" class = "" onclick="click(this)"> </div>
+                    <div id="tb2x2" class = "" onclick="click(this)"> </div>
+                    <div id="tb2x3" class = "" onclick="click(this)"> </div>
+                    <div id="tb3x1" class = "" onclick="click(this)"> </div>
+                    <div id="tb3x2" class = "" onclick="click(this)"> </div>
+                    <div id="tb3x3" class = "" onclick="click(this)"> </div>
+                </div>
+            </div>
         </main>                           
     </body>
 </html>
