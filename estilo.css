@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main{
+   background-image: url(imagem.jpg);
+   width: 100%;
+   height: 100%;
+   /*background-color: #01FBE6;*/
+   position: fixed;
+}
+#interface{
+    width: 100%;
+    margin: 0x auto;
+}
+header{
+    height: 100%;
+    background-color:green;
+}
+div #moverBotao{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.xo{
+    margin: 10px 10px;
+    cursor: pointer;
+    padding: 2px 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+
+}
+.pai{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.pai div{
+    width: 75px;
+    margin: 5px;
+    border: 1px solid black;
+    padding: 20px;
+    height: 75px;
+    background-color: white;
+    /*background-color: #01FBE6;*/
+    cursor: pointer;
+    
+}
+.x{
+    background-image: url("x.svg");
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    background-size: 150px;
+}
+.bolinha{
+    background-image: url("bolinha.svg");
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    background-size: 150px;
+}
