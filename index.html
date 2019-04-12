@@ -12,15 +12,15 @@
                 <header>
                     <h1>Jogo da Velha</h1>
                     <div id="moverBotao">
-                        <button class="xo" id="botX" onclick="escolha(this)"> X </button>
-                        <button class="xo" id="botO" onclick="escolha(this)"> O </button>
-                        <p id="res"> </p>
+                        <!-- <button class="xo" id="botX" onclick="escolha('x')"> X </button> -->
+                        <button class="xo" id="botX" onclick="escolha()"> X </button>
+                        <button class="xo" id="botO" onclick="escolha('y')"> O </button>
                     </div>
                 </header>
                 
                 <div class="pai">
                     <div id="tb1x1" onclick="botao(this, 0, 0)"> </div>
-                    <div id="tb1x2" onclick="botao(this, 0, 1)" > </div>
+                    <div id="tb1x2" onclick="botao(this, 0, 1)"> </div>
                     <div id="tb1x3" onclick="botao(this, 0, 2)"> </div>
                     <div id="tb2x1" onclick="botao(this, 1, 0)"> </div>
                     <div id="tb2x2" onclick="botao(this, 1, 1)"> </div>
